@@ -1,2 +1,3 @@
 # landing-page-teste
- um teste de uma landing page
+-um pequeno projeto de uma landing page 
+-montei essa landing page para testar meu aprendizado em HTML e CSS

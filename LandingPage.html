@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pten">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <input type="checkbox" id="close-menu" 
+   class="close-menu" aria-label="Close menu" role="button">
+   <label class="close-menu-label" for="close-menu" title="close-menu" ></label>
+    <section class="menu-geral white-bg">  
+            <div class="container" >
+                <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a></h1>
+                <nav class="menu">   
+                    <ul onclick="getElementById('close-menu').checked = false;">
+                        <li><a href="#intro">intro</a></li>
+                        <li><a href="#top3">top 3</a></li>
+                        <li><a href="#gallery">gallery</a></li>
+                        <li><a href="#work">work</a></li>
+                        <li><a href="#pricing">pricing</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </section> 
+
+    <section class="intro main-bg section" id="home" >
+        <div class="main-content intro-content">
+            <div class="intro-text">    
+                <h2>JANUARY BRINGS US FIREFOX 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>      
+            <div class="intro-img">
+            <img src="assets/css/img-js-intro.svg" alt="desenho de um homem segurando o simbolo do css, ao lado tem uma mulher empurrando o simbolo do javascript e ao lado da mulher tem outro homem segurando o simbolo do html.">
+            </div>
+        </div>   
+    </section>
+
+    <section class="white-bg section" id="intro" >
+        <div class="main-content text-center">    
+            <h2>INTRO</h2>
+            
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><br>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><br>
+            <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p><br>
+        </div>  
+    </section>
+    <section class="main-bg section" id="top3" >
+        <div class="grid-content main-content">    
+            <h2 class="grid-heading">TOP 3 JOBS</h2>
+            <p class="grid-description">Here are some recent work.</p>
+            <div class="tres-grids">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p> This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+                </article>        
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                </article>        
+            </div>
+        </div>   
+    </section>
+    
+    <section class="white-bg section grid-one" id="gallery" >
+        <div class="  grid-content main-content">    
+            <h2 class="grid-heading">GALLERY</h2>
+            <p class="grid-description">Here are some recent work.</p>
+            <div class="tres-grids">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360r=1" alt="imagem aleátoria do site unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360r=2" alt="imagem aleátoria do site unsplash">
+                </div> 
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360r=3" alt="imagem aleátoria do site unsplash">
+                </div>               
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360r=4" alt="imagem aleátoria do site unsplash">
+                </div>               
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360r=5" alt="imagem aleátoria do site unsplash">
+                </div>               
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360r=6" alt="imagem aleátoria do site unsplash">
+                </div>               
+            </div>
+        </div>   
+    </section>
+
+    <section class="main-bg section" id="work" >
+        <div class="grid-content main-content">    
+            <h2 class="grid-heading">RECENT JOBS</h2>
+            <p class="grid-description">Here are some recent work.</p>
+            <div class="tres-grids">
+                <article>
+                    <h3>A good one</h3>
+                    <p> This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+                </article>
+                <article>
+                    <h3>Great job</h3>
+                    <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+                </article>        
+                <article>
+                    <h3>The best</h3>
+                    <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                </article>        
+            </div>
+        </div>   
+    </section>
+
+    <section class="white-bg section" id="pricing" >
+        <div class="main-content text-center">    
+            <h2>pricing</h2>
+            
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><br>           
+                <div class="responsive-table">
+                    <table>
+                        <caption>pricing table</caption>
+
+                        <thead>
+                            <tr>
+                                <th>title 1</th>
+                                <th>title 2</th>
+                                <th>title 3</th>
+                                <th>title 4</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                            </tr>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                            </tr>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                            </tr>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                            </tr>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>teste</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+        </div>  
+    </section>
+
+    <section class="intro main-bg section" id="contact" >
+        <div class="main-content intro-content">
+            <div class="intro-text">    
+                <h2>contact us</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>      
+            <div class="intro-img">
+            <img src="assets/css/contact-img.svg" alt="desenho de um homem segurando um celular e trocando mensagens.">
+            </div>
+        
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-MAIL</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="Message">Message</label>
+                        <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                      <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>  
+    </section>
+
+    <footer id="footer" class=" footer white-bg">
+        <p>Feito com ❤ por leonardo</p>
+    </footer>
+
+    <div class="circle-white"><a class="back-to-top" href="#TOP">➜</a></div>
+
+
+
+
+</body>
+</html>

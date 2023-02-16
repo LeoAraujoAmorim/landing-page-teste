@@ -1,3 +1,6 @@
-# landing-page-teste
--um pequeno projeto de uma landing page 
--montei essa landing page para testar meu aprendizado em HTML e CSS
+<h1>Landing page</h1>
+
+> Status do projeto: Em andamento
+
+- Montei essa landing page para testar meu aprendizado em HTML e CSS
+- No futuro adicionarei mais funcionalidades com JavaScript

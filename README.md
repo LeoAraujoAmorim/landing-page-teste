@@ -3,4 +3,4 @@
 > Status do projeto: Em andamento
 
 - Montei essa landing page para testar meu aprendizado em HTML e CSS
-- No futuro adicionarei mais funcionalides com JavaScript
+- No futuro adicionarei mais funcionalidades com JavaScript
